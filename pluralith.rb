@@ -12,7 +12,7 @@ class Pluralith < Formula
     sha256 "c732e4c93102231d92e6872bce71783df60bc23a340e48cdd01001389627e4d5"
 
     def install
-      bin.install "pluralith"
+      bin.install "darwin/pluralith"
     end
 
     if Hardware::CPU.arm?
@@ -32,7 +32,7 @@ class Pluralith < Formula
       sha256 "6c01db115596774dad5a2445f3091e4c40c999237a1a0e3f0cf1a88fcc70684e"
 
       def install
-        bin.install "pluralith"
+        bin.install "linux/pluralith"
       end
     end
   end
